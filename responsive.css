@@ -29,6 +29,12 @@
         flex-direction: column;
         max-height: 0px;
         overflow: hidden;
+        width: 100%;
+        transition: max-height 0.5s;
+        flex-wrap: nowrap;
+    }
+    #main.open {
+        max-height: 50vh;
     }
     #user-nav a:nth-child(1) {
         display: none;
