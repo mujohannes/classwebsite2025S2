@@ -229,3 +229,13 @@ nav a {
     margin-right: auto;
     max-width: 80vw;
 }
+.banner2 {
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient( 45deg,brown,yellow,green ); */
+    background: radial-gradient(circle,brown,yellow);
+    margin-top: 1em;
+}
