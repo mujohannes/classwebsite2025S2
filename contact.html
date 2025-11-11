@@ -71,7 +71,7 @@
         </div>
     </div>
     <main class="main-content">
-        <div class="card-container">
+        <div class="card-container contact">
             <div class="card">
                 <!-- map -->
                 <iframe
@@ -83,36 +83,42 @@
                 <!-- form -->
                 <div class="card-content">
                     <form method="post" action="https://example.com/form" class="contact-form">
+                        <h3>Contact Us</h3>
                         <label for="username">Name</label>
                         <input id="username" type="text" name="username" placeholder="Jane Smith">
                         <label for="email">Email Address</label>
                         <input id="email" type="email" name="email" placeholder="you@example.com">
-                        <input type="checkbox" id="spam" checked>
-                        <label for="spam">Yes I like spam</label>
+                        <div class="row">
+                            <input type="checkbox" id="spam" checked>
+                            <label for="spam">Yes I like spam</label>
+                        </div>
                         <label for="message">Message</label>
                         <textarea rows="5" cols="30" id="message" placeholder="Hi there"></textarea>
+                        <div class="row">
+                            <button type="reset">Cancel</button>
+                            <button type="submit">Send</button>
+                        </div>
                     </form>
                 </div>
             </div>
             <div class="card">
                 <!-- address -->
                 <div class="card-content">
-                    <h3>Our Location</h3>
+                    <h3>Address:</h3>
                     <address>
-                        213 Pacific Hwy, St Leonards NSW 2065
+                        322 Avondale Road
+                        Enfield NSW 2133
                     </address>
+                    <h3>Customer Service:</h3>
+                    <p class="contact-details">
+                        Telephone: <a href="tel:0292105000">02 9210 5000</a>
+                        <br>
+                        Email us at: <a href="mailto:TipToeShoes@gmail.com">TipToeShoes@gmail.com</a>
+                    </p>
+
                 </div>
 
             </div>
-        </div>
-        <div class="contact">
-            <div class="map">
-
-            </div>
-            <div class="address">
-
-            </div>
-
         </div>
     </main>
     <footer class="main-footer">
